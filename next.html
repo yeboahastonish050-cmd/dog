@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd Mentor||Extensins Manager</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="favicon-32x32.png" />
+    <script src="index.js"></script>
+  </head>
+  <body class="bod1">
+    <nav class="navs">
+      <div class="logo1">
+        <img src="logo.jpg" alt="logo1" />
+        <h3>Extensions</h3>
+      </div>
+      <div class="icon1">
+        <button type="button" onclick="button()">
+          <img src="icon-moon.svg" alt="icon-moon" />
+        </button>
+      </div>
+    </nav>
+
+    <section class="option1">
+      <div>
+        <h1>Extensions List</h1>
+      </div>
+      <div>
+        <button type="button" id="btnAll">All</button>
+        <button type="button" id="btnActive">Active</button>
+        <button type="button" id="btnInactive">Inactive</button>
+      </div>
+    </section>
+    <main class="main1">
+      <div class="container1" id="p">
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div><img src="logo-devlens.svg" alt="logo-devlens" /></div>
+            <div>
+              <h3>Devlens</h3>
+              <p class="p" id="p">
+                Quickly inspect page layouts and visualize element boundaries.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div><img src="logo-json-wizard.svg" alt="logo-json-wizard" /></div>
+            <div>
+              <h3>JSONWizard</h3>
+              <p class="p">
+                Formats,validates,and pretiffies JSON responses in-browser.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-markup-notes.svg" alt="logo-markup-notes" />
+            </div>
+            <div>
+              <h3>Markup Notes</h3>
+              <p class="p">
+                Enables annotation and notes directly onto webpages for
+                collaborative debugging.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-link-checker.svg" alt="logo-link-checker" />
+            </div>
+            <div>
+              <h3>LinkChecker</h3>
+              <p class="p" id="p">
+                Scans and highlights broken links on any page.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="container2" id="p">
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div><img src="logo-style-spy.svg" alt="logo-style-spy" /></div>
+            <div>
+              <h3>StyleSpy</h3>
+              <p class="p" id="p">
+                Instantly analyze and copy CSS from any webpage element.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-tab-master-pro.svg" alt="logo-tab-master-pro" />
+            </div>
+            <div>
+              <h3>TabMaster Pro</h3>
+              <p class="p" id="p">
+                Organizes browser tabs into groups and sessions.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div><img src="logo-grid-guides.svg" alt="logo-grid-guides" /></div>
+            <div>
+              <h3>GridGuides</h3>
+              <p class="p" id="p">
+                Overlay customizable grids and alignment guides on any webpage.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-dom-snapshot.svg" alt="logo-dom-snapshot" />
+            </div>
+            <div>
+              <h3>DOM Snapshot</h3>
+              <p class="p" id="p">Capture and export DOM structures quickly.</p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="container3" id="p">
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div><img src="logo-speed-boost.svg" alt="logo-speed-boost" /></div>
+            <div>
+              <h3>SpeedBoost</h3>
+              <p class="p" id="p">
+                Optmizes browser resource usage to accelerate page loading.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-viewport-buddy.svg" alt="/logo-viewport-buddy" />
+            </div>
+            <div>
+              <h3>ViewportBuddy</h3>
+              <p class="p" id="p">
+                Simulates various screen resolutions directly within the
+                browser.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-palette-picker.svg" alt="logo-palette-picker" />
+            </div>
+            <div>
+              <h3>Palette Picker</h3>
+              <p class="p" id="p">
+                Instantly extracts color palettes from any webpage.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+        <div class="card1" data-status="inactive">
+          <div class="card">
+            <div>
+              <img src="logo-console-plus.svg" alt="logo-console-plus" />
+            </div>
+            <div>
+              <h3>ConsolePlus</h3>
+              <p class="p">
+                Enhanced developer console with advanced filtering and logging.
+              </p>
+            </div>
+          </div>
+          <div class="card2">
+            <button class="removeBtn">Remove</button>
+            <label class="switch">
+              <input type="checkbox" class="toggle" />
+              <span class="slider"></span>
+            </label>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      const cards = document.querySelectorAll(".card1");
+      const allBtn = document.getElementById("btnAll");
+      const activeBtn = document.getElementById("btnActive");
+      const inactiveBtn = document.getElementById("btnInactive");
+      /* Toggle switch logic */
+      document.addEventListener("change", function (e) {
+        if (!e.target.classList.contains("toggle")) return;
+        const card = e.target.closest(".card1");
+        if (e.target.checked) {
+          card.dataset.status = "active";
+          card.classList.add("active");
+        } else {
+          card.dataset.status = "inactive";
+          card.classList.remove("active");
+        }
+      });
+      /* Remove button logic */
+      document.addEventListener("click", function (e) {
+        if (!e.target.classList.contains("removeBtn")) return;
+        const card = e.target.closest(".card1");
+        const toggle = card.querySelector(".toggle");
+        // Force inactive
+        toggle.checked = false;
+        card.dataset.status = "inactive";
+        card.classList.remove("active");
+      });
+      /* Filter buttons */
+      allBtn.onclick = () => {
+        cards.forEach((card) => (card.style.display = "block"));
+      };
+      activeBtn.onclick = () => {
+        cards.forEach((card) => {
+          card.style.display =
+            card.dataset.status === "active" ? "block" : "none";
+        });
+      };
+      inactiveBtn.onclick = () => {
+        cards.forEach((card) => {
+          card.style.display =
+            card.dataset.status === "inactive" ? "block" : "none";
+        });
+      };
+      function button() {
+        window.location.replace("index.html");
+      }
+      function but() {
+        window.location.replace("next.html");
+      }
+    </script>
+  </body>
+</html>

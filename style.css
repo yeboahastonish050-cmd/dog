@@ -1,0 +1,515 @@
+@font-face {
+    font-family: NotoSans-Bold;
+    src: url(NotoSans-Bold.ttf);
+
+    font-family: NotoSans-Meduim;
+    src: url(NotoSans-Medium.ttf);
+
+    font-family: NotoSans-Regular;
+    src: url(NotoSans-Regular.ttf);
+
+    font-family: NotoSans-vwdth;
+    src: url(NotoSans-VariableFont_wdth,wght.ttf);
+
+    font-family: NotoSans-ivwdth;
+    src: url(NotoSans-Italic-VariableFont_wdth,wght.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+    box-sizing: content-box;
+}
+
+.bod {
+    background-color: hsl(227, 75%, 11%);
+}
+
+.bod1 {
+    background-color: hsl(217, 61%, 90%);
+}
+
+.logo {
+    display: flex;
+    padding: 0.625rem;
+
+    h3 {
+        color: white;
+
+    }
+
+    img {
+        height: 1.25rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.logo1 {
+    display: flex;
+    padding: 0.625rem;
+
+    h3 {
+        color: black;
+    }
+
+    img {
+        height: 1.25rem;
+        padding-right: 0.5rem;
+    }
+}
+
+.p {
+    padding-bottom: 1.5rem;
+}
+
+.icon {
+    padding: 0.625rem;
+    height: 1.25rem;
+
+
+    button {
+        background-color: hsl(226, 25%, 17%);
+        height: 1.25rem;
+        border-radius: 0.3125rem;
+        border: none;
+        padding: 0.25rem;
+        cursor: pointer;
+    }
+}
+
+.icon1 {
+    padding: 0.625rem;
+    height: 1.25rem;
+
+
+    button {
+        background-color: hsl(226, 11%, 37%);
+        height: 1.25rem;
+        border-radius: 0.3125rem;
+        border: none;
+        padding: 0.25rem;
+        cursor: pointer;
+    }
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(225, 23%, 24%);
+    margin: 1.875rem 5rem;
+    border-radius: 0.625rem;
+}
+
+.navs {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: hsl(0, 0%, 100%);
+    margin: 1.875rem 5rem;
+    border-radius: 0.625rem;
+}
+
+.main1 {
+    display: flex;
+    margin: 0.625rem 5rem 0rem 5rem;
+}
+
+.container1 {
+    flex: 1;
+    order: 1;
+
+
+
+    .card1 {
+        background-color: hsl(226, 25%, 17%);
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        margin: 0.3125rem;
+
+        .card {
+
+            display: flex;
+
+
+
+            h3 {
+                color: white;
+            }
+
+            p {
+                color: hsl(240, 1%, 53%);
+            }
+
+            img {
+                height: 3.125rem;
+                padding-right: 1.25rem;
+            }
+
+            div {
+
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.container2 {
+    flex: 1;
+    order: 2;
+
+
+
+    .card1 {
+        background-color: hsl(226, 25%, 17%);
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        margin: 0.3125rem;
+
+        .card {
+
+            display: flex;
+
+
+
+            h3 {
+                color: white;
+            }
+
+            p {
+                color: hsl(240, 1%, 53%);
+            }
+
+            img {
+                height: 3.125rem;
+                padding-right: 1.25rem;
+            }
+
+            div {
+
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}
+
+.container3 {
+    flex: 1;
+    order: 3;
+
+    .card1 {
+        background-color: hsl(226, 25%, 17%);
+        border-radius: 0.625rem;
+        padding: 0.625rem;
+        margin: 0.3125rem;
+
+        .card {
+
+            display: flex;
+
+
+
+            h3 {
+                color: white;
+                font-family: NotoSans-vwdth;
+                font-weight: 700;
+            }
+
+            p {
+                color: hsl(240, 1%, 53%);
+                font-family: NotoSans-Regular;
+            }
+
+            img {
+                height: 3.125rem;
+                padding-right: 1.25rem;
+
+            }
+
+            div {
+
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+    }
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0.625rem;
+
+    button {
+        background-color: hsl(226, 25%, 17%);
+        border: 0.0625rem solid hsl(226, 11%, 37%);
+        color: white;
+        padding: 0.25rem 0.5rem;
+        font-family: NotoSans-Meduim;
+        border-radius: 1.25rem;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: hsl(3, 77%, 44%);
+        border: 0.0625rem solid hsl(3, 77%, 44%);
+        color: black;
+    }
+
+    /* container*/
+    .switch {
+        width: 1.25rem;
+        height: 0.625rem;
+        position: relative;
+
+        input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+    }
+
+    .slider {
+        position: absolute;
+        width: 1.875rem;
+        height: 1.125rem;
+        background-color: hsl(226, 11%, 37%);
+        border-radius: 1.25rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        cursor: pointer;
+    }
+
+    .slider::before {
+        content: "";
+        width: 0.75rem;
+        height: 0.75rem;
+        border-radius: 50%;
+        position: absolute;
+        top: 0.1875rem;
+        bottom: 0.1875rem;
+        background-color: white;
+    }
+
+    input:checked+.slider {
+        background-color: hsl(3, 71%, 56%);
+    }
+
+    input:checked+.slider::before {
+        transform: translateX(1.125rem);
+    }
+}
+
+#p {
+    .card1 {
+        background-color: white;
+    }
+
+    h3 {
+        color: hsl(0, 0%, 3%);
+        font-family: NotoSans-vwdth;
+        font-weight: 700;
+    }
+
+    p {
+        color: hsl(226, 11%, 37%);
+        font-family: NotoSans-Regular;
+        font-weight: 400;
+    }
+
+    .card2 {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 0.625rem;
+
+        button {
+            background-color: hsl(0, 0%, 78%);
+            border: 0.0625rem solid hsl(226, 11%, 37%);
+            color: black;
+            padding: 0.25rem 0.5rem;
+            font-family: NotoSans-Bold;
+            border-radius: 1.25rem;
+            cursor: pointer;
+            font-weight: 700;
+        }
+
+        button:hover {
+            background-color: hsl(3, 77%, 44%);
+            border: 0.0625rem solid hsl(3, 77%, 44%);
+            color: white;
+        }
+
+        /* container*/
+        .switch {
+            width: 1.25rem;
+            height: 0.625rem;
+            position: relative;
+
+            input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+        }
+
+        .slider {
+            position: absolute;
+            width: 1.875rem;
+            height: 1.125rem;
+            background-color: hsl(226, 11%, 37%);
+            border-radius: 1.25rem;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .slider::before {
+            content: "";
+            width: 0.75rem;
+            height: 0.75rem;
+            border-radius: 50%;
+            position: absolute;
+            top: 0.1875rem;
+            bottom: 0.1875rem;
+            background-color: white;
+        }
+
+        input:checked+.slider {
+            background-color: hsl(3, 71%, 56%);
+        }
+
+        input:checked+.slider::before {
+            transform: translateX(1.125rem);
+        }
+    }
+}
+
+.option {
+    display: flex;
+    margin: 0.3125rem 5rem;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 1.625rem;
+        color: white;
+        font-family: NotoSans-Bold;
+        font-weight: 700;
+    }
+
+    button {
+        border: none;
+        padding: 0.3125rem 0.5rem;
+        border-radius: 35%;
+        background-color: hsl(226, 11%, 37%);
+        color: white;
+        cursor: pointer;
+        font-family: NotoSans-Regular;
+    }
+
+    button:hover {
+        background-color: hsl(3, 71%, 56%);
+        border: 0.0625rem solid hsl(3, 77%, 44%);
+        color: black;
+    }
+}
+
+
+.option1 {
+    display: flex;
+    margin: 0.3125rem 5rem;
+    justify-content: space-between;
+
+    h1 {
+        font-family: NotoSans-Bold;
+        font-size: 1.625rem;
+        color: black;
+        font-weight: 700;
+        font-family: NotoSans-vwdth;
+    }
+
+    button {
+        border: none;
+        padding: 0.3125rem 0.5rem;
+        border-radius: 35%;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        font-family: NotoSans-Regular;
+    }
+
+    button:hover {
+        background-color: hsl(3, 71%, 56%);
+        border: 0.0625rem solid hsl(3, 77%, 44%);
+        color: white;
+    }
+
+}
+
+@media screen and (max-width:46.875rem) {
+    .main1 {
+        display: flex;
+        flex-direction: column;
+        margin: 1.25rem;
+
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(225, 23%, 24%);
+        margin: 1.25rem;
+        border-radius: 0.625rem;
+    }
+
+    .navs {
+
+        display: flex;
+        justify-content: space-between;
+        background-color: hsl(0, 0%, 100%);
+        margin: 1.25rem;
+        border-radius: 0.625rem;
+    }
+
+    .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            padding-bottom: 1.25rem;
+        }
+
+        button {
+            margin-right: 0.625rem;
+            padding: 0.3125rem 0.9375rem;
+
+        }
+    }
+
+
+    .option1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        h1 {
+            padding-bottom: 1.25rem;
+        }
+
+        button {
+            margin-right: 0.3125rem;
+            padding: 0.3125rem 0.9375rem;
+        }
+    }
+}
